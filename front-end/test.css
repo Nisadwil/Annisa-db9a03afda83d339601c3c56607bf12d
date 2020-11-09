@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+body{
+  color:#fff;
+  font-family:Helvetica, serif;
+  background-image:url('new bg.png');
+  background-repeat:repeat;
+  background-position:left top;
+  background-attachment:fixed;
+  background-size:cover;
+}
+#div1{
+  margin:40px 350px 0 350px;
+}
+
+#judul{
+  margin:0 0 20px 0;
+  letter-spacing:7px;
+  font-size:60px;
+  font-weight:600;
+  font-family:Courier New, Courier, monospace;
+  text-transform:uppercase;
+  color:#000000;
+  text-align:center;
+}
+
+#pembuka{
+  padding:10px 10px 10px 10px;
+  font-weight:100;
+  margin:0 0 10px 0;
+  line-height:30px;
+  color:#000000;
+  text-align:justify;
+  font-family:Comic Sans MS, cursive, sans-serif;
+}
+
+#form1{
+  padding:10px 10px;
+}
+
+#kolom{
+  border:2px solid #000000;
+  color:#000000;
+  font-family:Comic Sans MS, cursive, sans-serif;
+  width: 100%;
+  padding:10px; 
+  margin-bottom: 10px;
+  font-size: 12pt;
+  height:40px;
+  background-color:rgba(255,255,255,0.5);
+}
+
+.button{
+  width:100%;
+  height:40px;
+  font-size:20px;
+  font-weight:600;
+  letter-spacing:4px;
+  background-color:rgba(16,229,125,0);
+  color:#d5cb00;
+  border:2px solid #d5cb00;
+  transition:all 0.2s ease;
+  font-family:Courier New, Courier, monospace;
+  padding:5px 10px 5px 10px;
+}
+
+.button:hover{
+  background-color:#d5cb00;
+  color:#fff;
+}
+
+#hasil{
+  padding:10px 10px 10px 10px;
+  font-weight:600;
+  margin:30px 0 10px 0;
+  line-height:30px;
+  color:#000000;
+  text-align:justify;
+  font-family:Courier New, Courier, monospace;
+}
