@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HOME</title>
+    <link rel="stylesheet" href="test.css">
+
+    <script>
+      function startTime() {
+      var today=new Date();
+      var h=today.getHours();
+      var m=today.getMinutes();
+      var s=today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById('jam').innerHTML = h+":"+m+":"+s;
+      var t = setTimeout(function(){startTime()},500);
+  }
+
+  function checkTime(i) {
+      if (i<10) {i = "0" + i};  // add zero in front of numbers < 10
+      return i;
+  }
+  </script>
+  </head>
+
+  <body onload="startTime()">
+  <div id="div1">
+    <h1 id="judul">HOME</h1> 
+    <form action="home.php" method="post">
+      <div id="jam" style="color:black; font-size: 20pt; text-align:center; font-family:Courier New, Courier, monospace" name="jam"></div>
+    
+      <button type="submit" name="helo" class="button">HELLO</button>
+    </form> 
+</body>
+</html>
